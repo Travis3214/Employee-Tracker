@@ -17,13 +17,13 @@ function firstPrompt() {
         .prompt({
             type: 'list',
             choices: [
-                "Add department",
-                "Add role",
-                "Add employee",
-                "View departments",
-                "View roles",
                 "View employees",
-                "Update employee role",
+                "Add employee",
+                "View roles",
+                "Add role",
+                "View departments",
+                "Add department",
+                "Update current employee's role",
                 "Quit"
             ]
         })
