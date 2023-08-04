@@ -16,6 +16,8 @@ function firstPrompt() {
     inquirer
         .prompt({
             type: 'list',
+            name: 'options',
+            message: 'What are you looking to do?'
             choices: [
                 "View employees",
                 "Add employee",
